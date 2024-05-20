@@ -1,0 +1,14 @@
+BONJOUR ! merci de nous visiter, pour ce qui concerne notre site il fonctionne comme suite:
+-vous devez vous inscrire en remplissant les champs correspondant,
+-vous connecter en cliquant sur connexion,
+-cliquer sur demander un formulaire pour concevoir un formulaire,
+-cliquer sur consulter un formulaire pour voir votre formulaire,
+SI vous etes un AGENT ADMINISTRATIF vous pouvez cliquer sur ESPACE ADMINISTRATIF
+-vous inscrire puis vous conecter 
+-consulter les informations entrees dans les differents certificats de nationalite cree
+
+REMARQUE: veillez a bien creer la base de donnee "cert_nat_bd" sur votre logiciel wampp/xampp
+et creer les tables de la base de donnees avec le script de base de donnee contenu dans le dossier "script"
+a cause de divers souci.
+il est possible que vous soyez obliger de creer la base de donne sur le shell ou sur la console de wampp q c, puis 
+importer le script sur phpmyadmin pour plus de simplicite

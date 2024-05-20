@@ -1,0 +1,78 @@
+body{
+    font-family: ;
+    background-image: url(images/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    position: fixed;
+    width: 1350px;
+    height: 60px;
+    /*padding: 20px 100px;*/
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+ .logo1 {
+    width: 50px;
+    height: 50px;
+    /*float: left;*/
+    border-radius: 20%;
+    margin-left: 100px;
+    margin-top: 1px;
+}
+.navbar{
+    margin-right: 30px;
+}
+.navbar a{
+    position: relative;
+    font-size: 1.6em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 90px;
+}
+.logo2 {
+    width: 50px;
+    height: 50px;
+    /*float: right;*/
+    border-radius: 20%;
+    margin-right: 100px;
+    margin-bottom: 1px;
+    /*position: relative;*/
+}
+.navbar a::after{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+   
+}
+.navbar a :hover ::after{
+    transform: scaleX(1);
+    transform-origin: right;
+    margin-left: 20px;
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 80px;
+    background-color: green;
+    z-index: 100;
+    color: white;
+    text-align: center;
+}
+a{
+    position: relative;
+    font-size: 10px;
+    color: bisque;
+}
